@@ -365,6 +365,8 @@
 
     const Context = React.createContext()
 
+// creating a Provider class to wrap <Context.Provider> to map this.props.store to 'value' (must be named 'value')
+
     class Provider extends React.Component {
       render () {
         return (
